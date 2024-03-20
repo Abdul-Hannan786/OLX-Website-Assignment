@@ -219,11 +219,11 @@ text-decoration: none;
     margin: 0;
  }
  .location{
-    width: 50%;
-    /* border: none; */
-    padding: 0 4%;
+    width: 53%;
+    border: none;
+    /* padding: 0 4%; */
 margin-bottom: 2%;
-justify-content: space-around;
+justify-content: space-between;
  }
  
  
@@ -233,7 +233,7 @@ justify-content: space-around;
     width: 100%;
 }
 
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:920px) {
     .nav-1, .nav-2{
         width: 93%;
     }

@@ -26,7 +26,7 @@
     z-index: 100;
     position: fixed;
     top: 0;
-    padding-bottom: 1.5%;
+    padding-bottom: 1.3%;
 }
 
 .nav-1{
@@ -173,8 +173,104 @@ text-decoration: none;
     width: 15px;
 }
 
+.categories-list{
+    /* margin-top: 10px; */
+    display: flex;
+    /* border: 1px solid red; */
+    max-width: 1300px;
+    margin: 15px auto;
+    align-items: center;
+    width: 83%;
+    }
+    .categories{
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        gap: 8px;
+    /* border: 1px solid navy; */
+    
+    color: #002f34;
+        font-weight: 700;
+        font-size: 0.9rem;
+    
+    }
+    
+    .categories-list a{
+        text-decoration: none;
+        color: #002f34;
+        font-size: 0.85rem;
+        margin-left: 1.5%;
+    }
+    .categories img{
+        width: 14px;
+    }
+    .copy{
+        width: 100%;
+        height: 141px;
+    }
 
-@media only screen and (max-width:700px) {
+    .dummy{
+        width: 100%;
+        height: 140px;
+    }
+    .carousel{
+        /* border: 1px solid red; */
+        width: 83%;
+        margin: auto;
+        /* max-width: 1300px; */
+    }
+    .carousel img{
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media only screen and (max-width:920px) {
+        .header{
+         border: none;
+        }
+         .nav-1, .nav-2{
+             width: 93%;
+         }
+         .login{
+             display: none;
+         }
+         .location{
+             min-width: 240px;
+         }
+         .categories-list{
+             display: none;
+          }
+          .carousel{
+             width: 94%;
+             margin: auto;
+          }
+          .carousel img{
+             width: 100%;
+          }
+     }
+     
+    @media only screen and (max-width:700px) {
+   .header{
+    border: none;
+   }
     .nav-1 {
         font-size: 0.9em;
         gap: 15px !important;
@@ -226,21 +322,31 @@ margin-bottom: 2%;
 justify-content: space-between;
  }
  
- 
-}
+ .categories-list{
+    display: none;
+ }
 
-.search-bar{
+.carousel{
+width: 92%;
+margin: 40px auto;
+}
+.carousel img{
     width: 100%;
 }
-
-@media only screen and (max-width:920px) {
-    .nav-1, .nav-2{
-        width: 93%;
-    }
-    .login{
-        display: none;
-    }
-    .location{
-        min-width: 240px;
-    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
